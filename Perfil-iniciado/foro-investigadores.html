@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIC - Centro de Investigaciones Cuyo</title>
+    <link rel="icon" type="image/png" href="./Recursos/Imágenes/LogoCIC.PNG">
+    <script src="https://kit.fontawesome.com/7192dca5be.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../Estilos/style.css">
+    <link rel="stylesheet" href="../Estilos/foro-investigadores.css">
+</head>
+<body>
+  <header>
+    <div class="Logos">
+        <a href="index-profile.html"class="logo">
+            <img src="../Recursos/Imágenes/LogoCIC_White-removebg-preview.png" alt="">  </a>              
+    </div>
+    <div class="profile">
+      <i class="fa-solid fa-user"></i>
+    </div>
+    
+</header> 
+    <main>
+
+      <div>  
+        <div class="menu">
+          <nav>
+            <a href="index-profile.html" class="nav-link">Inicio</a>
+            <a href="#SobreNos" class="nav-link">Acerca de</a>
+            <a href="red-de-investigadores-profile.html" class="nav-link">Red de Investigadores</a>
+            <a href="organismos-profile.html" class="nav-link">Organismos</a>
+            <a href="https://www.cicuyo.org/ojs/index.php/Psicoped" class="nav-link">Revista</a>           
+        </nav>
+        </div>
+      </div>
+      <br>
+
+      <!--Código hecho por Chat :) (Estuve más de 1 hora buscando un foro que se adapte a mis gustos y no encontré... Este tampoco pero era el único donde podía subir archivo)-->
+    
+      <div class="form-container">
+        <form id="basicForm">
+        
+            <div class="form-group">
+                <label for="title">Título</label>
+                <input type="text" id="title" name="title" placeholder="Ingrese un título" required>
+            </div>
+            <div class="form-group">
+                <label for="fileUpload">Suba sus archivos aquí</label>
+                <input type="file" id="fileUpload" name="fileUpload" multiple>
+            </div>
+            <button type="button" id="button" onclick="submitForm()">Enviar</button>
+        </form>
+    </div>
+    <p>En el cuadro de arriba podrás cargar los archivos, debes colocar el título y subir tu Investigacion por medio PDF para que sea aceptado en nuestra página. Muchas gracias!</p>
+
+    </main>
+
+
+      <footer>
+        <div>
+          <img src="../Recursos/Imágenes/LogoCIC B&N removed bg.png" alt="LogoCIC">
+        </div>
+
+        <div class="Contacto">
+          <div>
+            <p>Cristian Expósito</p>
+          </div>
+          <div>
+            <p><i class="fa-brands fa-whatsapp"></i> tel <a href="">+54 (061) 292 563</a></p>
+            <p><i class="fa-solid fa-envelope"></i> <a href=""></a>cdexposito@gmail.com</p>
+          </div>
+        </div>
+
+        <div> 
+          <img src="../Recursos/Imágenes/Conicet logo.png" alt="">
+        </div>
+
+      <script src="../main.js"></script>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.Organismos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 30px;
+}
+
+.Organismos img{
+    width: 225px;
+    height: 225px;
+    border: 3px solid black ;
+    background-color: white;
+    z-index: 100;
+
+}
+
+.Organismos div{
+    background-color: rgb(7, 7, 155);
+}
+
+.Organismos div:hover{
+    background-color: rgb(62, 62, 255);
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+.Organismos p{
+   color: white;
+   text-align: center;
+}
+main{
+    height: auto;
+    padding-bottom: 50px;
+}
+
+@media screen and (min-width: 760px ) {
+    #Organismos{
+        font-size: 20px;
+        text-align: center;
+    }
+  }

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIC - Centro de Investigaciones Cuyo</title>
+    <link rel="icon" type="image/png" href="./Recursos/Imágenes/LogoCIC.PNG">
+    <script src="https://kit.fontawesome.com/7192dca5be.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Estilos/style.css">
+    <link rel="stylesheet" href="./Estilos/organismos.css">
+</head>
+<body>
+    <header>
+        <div class="Logos">
+            <a href="index.html"class="logo">
+                <img src="./Recursos/Imágenes/LogoCIC_White-removebg-preview.png" alt="">  </a>              
+        </div>
+        <nav class="LogIn">
+            <button onclick="document.getElementById('abrirLogin').style.display='block'" style="width:auto;">Login</button>
+
+            <div id="abrirLogin" class="modal">
+        
+              <div class="modal-content animate">
+        
+                <div class="imgcontainer">
+                  <span onclick="document.getElementById('abrirLogin').style.display='none'" class="close" title="Close Modal">&times;</span>
+                  <img src="./Recursos/Imágenes/LogoCIC.PNG" alt="Avatar" class="avatar">
+                </div>
+        
+                <div class="container">
+                  <label for="uname"><b>Usuario</b></label>
+                  <input type="text" placeholder="Ingrese usuario" name="uname" required id="usuario">
+        
+                  <label for="psw"><b>Contraseña</b></label>
+                  <input type="password" placeholder="Ingrese contraseña" name="psw" required id="pass">
+                    
+                  <button type="submit" value="entrar" onclick="login()" >Ingresar</button>
+                </div>
+        
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" onclick="document.getElementById('abrirLogin').style.display='none'" class="cancelbtn">Cancelar</button>
+                </div>
+        
+              </div>
+        
+            </div>      
+      </nav>
+      <nav class="Register">
+        <button onclick="document.getElementById('abrirLogin').style.display='block'" style="width:auto;">Register</button>
+
+        <div id="abrirLogin" class="modal">
+    
+          <div class="modal-content animate">
+    
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('abrirLogin').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="./Recursos/Imágenes/LogoCIC.PNG" alt="Avatar" class="avatar">
+            </div>
+    
+            <div class="container">
+              <label for="uname"><b>Usuario</b></label>
+              <input type="text" placeholder="Ingrese usuario" name="uname" required id="usuario">
+    
+              <label for="psw"><b>Contraseña</b></label>
+              <input type="password" placeholder="Ingrese contraseña" name="psw" required id="pass">
+                
+              <button type="submit" value="entrar" onclick="login()" >Ingresar</button>
+            </div>
+    
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('abrirLogin').style.display='none'" class="cancelbtn">Cancelar</button>
+            </div>
+    
+          </div>
+    
+        </div>      
+    </nav>
+      
+  </header> 
+    <main>
+
+      <div>  
+        <div class="menu">
+          <nav>
+              <a href="index.html" class="nav-link">Inicio</a>
+              <a href="index.html" class="nav-link">Acerca de</a>
+              <a href="red-de-investigadores.html" class="nav-link">Red de Investigadores</a>
+              <a href="organismos.html" class="nav-link">Organismos</a>
+              <a href="https://www.cicuyo.org/ojs/index.php/Psicoped" class="nav-link">Revista</a>           
+          </nav>
+        </div>
+      </div>
+
+      <h2 id="titulo"> ¡Organismos que trabajan con nosotros!</h2>
+      <div class="Organismos">
+        <div> 
+            <a href="https://www.conicet.gov.ar/"> <img src="./Recursos/Imágenes/Conicet logo fondo.png" alt=""></a>
+            <p>Conicet</p>
+        </div>
+        <div>
+            <a href="https://www.mendoza.conicet.gov.ar/"><img src="./Recursos/Imágenes/Conicet Mendoza.jpg" alt=""></a>
+            <p>CCT - Mendoza</p>
+        </div>
+        <div>
+            <a href="https://www.uncuyo.edu.ar/"><img src="./Recursos/Imágenes/logo-universidad-nacional-de-cuyo.png" alt=""></a>
+            <p>UnCuyo</p>
+        </div>
+        <div>
+            <a href="https://uca.edu.ar/es/mendoza"><img src="./Recursos/Imágenes/UCA Mendoza.jpg" alt=""></a>
+            <p>Universidad Católica Arg</p>
+        </div>
+        <div>
+            <a href="https://uccuyosj.edu.ar/"><img src="./Recursos/Imágenes/UCC Cuyo.png" alt=""></a>
+            <p>Universidad Católica Cuyo</p>
+
+        </div>
+        <div>
+            <a href="https://www.uda.edu.ar/"><img src="./Recursos/Imágenes/UDA.jpg" alt=""></a>
+            <p>Unión Docentes Arg</p>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/redxeducacionmza/"><img src="./Recursos/Imágenes/RedPorLaEdcucación.png" alt=""></a>
+            <p>Red Por La Edcucación</p>
+        </div>
+    </div>
+    </main>
+      <footer>
+        <div>
+          <img src="./Recursos/Imágenes/LogoCIC B&N removed bg.png" alt="LogoCIC">
+        </div>
+
+        <div class="Contacto">
+          <div>
+            <p>Cristian Expósito</p>
+          </div>
+          <div>
+            <p><i class="fa-brands fa-whatsapp"></i> tel <a href="">+54 (061) 292 563</a></p>
+            <p><i class="fa-solid fa-envelope"></i> <a href=""></a>cdexposito@gmail.com</p>
+          </div>
+        </div>
+
+        <div> 
+          <img src="./Recursos/Imágenes/Conicet logo.png" alt="">
+        </div>
+
+      <script src="./main.js"></script>
+  </footer>
+</body>
+</html>
